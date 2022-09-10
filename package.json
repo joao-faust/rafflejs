@@ -1,6 +1,6 @@
 {
   "name": "rafflejs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An easy way to ruffle values",
   "main": "dist/index.js",
   "files": [
