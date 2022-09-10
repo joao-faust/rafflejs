@@ -1,0 +1,34 @@
+{
+  "name": "rafflejs",
+  "version": "1.0.0",
+  "description": "An easy way to ruffle values",
+  "main": "dist/index.js",
+  "files": [
+    "/dist"
+  ],
+  "scripts": {
+    "dev": "nodemon src/index.ts",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joao-faust/rafflejs.git"
+  },
+  "author": "João Victor",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joao-faust/rafflejs/issues"
+  },
+  "homepage": "https://github.com/joao-faust/rafflejs#readme",
+  "devDependencies": {
+    "@types/node": "^18.7.16",
+    "@typescript-eslint/eslint-plugin": "^5.36.2",
+    "@typescript-eslint/parser": "^5.36.2",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "nodemon": "^2.0.19",
+    "prettier": "^2.7.1",
+    "sucrase": "^3.25.0",
+    "typescript": "^4.8.3"
+  }
+}
